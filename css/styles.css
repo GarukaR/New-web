@@ -1,0 +1,69 @@
+/****************************TAG SELECTORS*************************************/
+body{margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+
+}
+h1{font-size: 5.25rem;color:#66BFBF;
+  margin: 50px auto 0 auto;font-family: 'Yesteryear', cursive;
+  line-height: 2;}
+
+h2{font-family: 'Anton', sans-serif;color:#66BFBF;font-weight: normal;}
+h3{font-family: 'Anton', sans-serif;color: #11999E;}
+a{color: #11999E;font-size: 1rem;text-decoration: none;}
+table{text-align: left;width: 50%;display: inline-block;}
+
+
+
+/*****************************CLASS SELECTORS**********************************/
+.top-div{background-color: #ebfffb;
+          position: relative;
+          padding: 10%;
+          padding-bottom: 0;
+          }
+.pic{border-radius: 50%;width: 300px;}
+
+
+.cloud1{position: absolute;top: 40%;width: 50px}
+.cloud2{position: absolute;left: 28%;top: 48%;width:10%;}
+.cloud3{position: absolute;right: 30%;bottom: 30%;width: 60px;}
+
+.btn {
+  background: #5cd6d6;
+  background-image: -webkit-linear-gradient(top, #5cd6d6, #11999E);
+  background-image: -moz-linear-gradient(top, #5cd6d6, #11999E);
+  background-image: -ms-linear-gradient(top, #5cd6d6, #11999E);
+  background-image: -o-linear-gradient(top, #5cd6d6, #11999E);
+  background-image: linear-gradient(to bottom, #5cd6d6, #11999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 11px #8a8a8a;
+  -moz-box-shadow: 0px 4px 11px #8a8a8a;
+  box-shadow: 0px 4px 11px #8a8a8a;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;}
+
+.btn:hover {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #5cd6d6);
+  background-image: -moz-linear-gradient(top, #11999E, #5cd6d6);
+  background-image: -ms-linear-gradient(top, #11999E, #5cd6d6);
+  background-image: -o-linear-gradient(top, #11999E, #5cd6d6);
+  background-image: linear-gradient(to bottom, #11999E, #5cd6d6);
+  text-decoration: none;}
+.middle-div{margin-bottom: 100px;}
+.bottom-div{background-color: #66BFBF;padding: 50px 0 100px 0;}
+.footer-link{margin: 20px}
+
+.hr{border-style: none;border-top-style: dotted;border-width: thick;width: 10%;border-color: grey;}
+
+/******************************ID SELECTORS************************************/
+#foot{color: #EAF6F6;font-size: 0.85rem;line-height: 3;}
+#me{width: 50%;text-align: center;margin: 0 auto 20px auto;}
+#get{font-size: 2rem;}
+#my{width: 30%;display: inline-block;}
